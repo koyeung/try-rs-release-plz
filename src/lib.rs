@@ -3,7 +3,7 @@ pub fn add(left: usize, right: usize) -> usize {
 }
 
 pub fn multiply(left: usize, right: usize) -> usize {
-    left * right
+    left * right // fix 1
 }
 
 #[cfg(test)]
