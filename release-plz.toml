@@ -1,0 +1,5 @@
+# configuration for https://github.com/MarcoIeni/release-plz
+
+[workspace]
+# no publish to crates.io
+publish = false
