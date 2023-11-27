@@ -17,8 +17,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          # fetch full history
-          fetch-depth: 0
+          filter: tree:0
 
       - name: Run release-plz
         uses: MarcoIeni/release-plz-action@v0.5
